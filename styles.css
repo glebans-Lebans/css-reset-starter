@@ -218,6 +218,9 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
+    padding: 5.6px 12px 10px 12px;
+    border-width: 2px;
+    border-style: groove;
     border-color: var(--red);
 }
 
@@ -264,6 +267,10 @@ input[type=radio]:focus{
 
 input[type=radio]:focus + label::before {
     box-shadow: 0 0 0 2px var(--coral);
+}
+
+legend {
+    padding: 0 2px;
 }
 
 /* Textarea Styles */
